@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI';
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    padding: 15px;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background: #1e293b;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.tabs button:hover {
+    background: #3b82f6;
+}
+
+.tab {
+    display: none;
+    margin-top: 20px;
+}
+
+.home-box {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    margin: auto;
+}
+
+.form-box {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+input {
+    padding: 10px;
+    width: 220px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.student-card {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.delete {
+    background: #ef4444;
+    color: white;
+}
+
+.update {
+    background: #22c55e;
+    color: white;
+}

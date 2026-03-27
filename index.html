@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎓 Student Management</h1>
+
+<div class="tabs">
+    <button onclick="showTab('home')">Home</button>
+    <button onclick="showTab('add')">Add Student</button>
+    <button onclick="showTab('view')">View Students</button>
+</div>
+
+<!-- HOME -->
+<div id="home" class="tab">
+    <div class="home-box">
+        <h2>Welcome 👋</h2>
+        <p>Manage students easily with a modern interface.</p>
+    </div>
+</div>
+
+<!-- ADD -->
+<div id="add" class="tab">
+    <div class="form-box">
+        <input id="id" placeholder="Student ID"><br><br>
+        <input id="name" placeholder="Name"><br><br>
+        <input id="dept" placeholder="Department"><br><br>
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+</div>
+
+<!-- VIEW -->
+<div id="view" class="tab">
+    <h2>All Students</h2>
+    <div id="list" class="grid"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
